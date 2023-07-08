@@ -68,6 +68,23 @@ class LinkedList:
 
         temp.next = temp.next.next
 
+    def reverse(self):
+        """Reverse linked list"""
+        if self.head is None:
+            print("Linked list is empty")
+            return
+
+        previous = None
+        current=next = self.head
+
+        while next:
+            next = next.next
+            current.next = previous
+            previous = current
+            current = next
+
+        self.head = previous   
+
     def print(self):
         """Print all the nodes"""
         if self.head is None:

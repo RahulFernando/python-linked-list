@@ -13,8 +13,12 @@ if __name__ == "__main__":
     linked_list.insert_at(14,8)
     linked_list.print()
 
-    # delete operation
-    linked_list.delete_at_end()
-    linked_list.delete_at_begining()
-    linked_list.delete_at(44)
+    # reverse operation
+    linked_list.reverse()
     linked_list.print()
+
+    # delete operation
+    # linked_list.delete_at_end()
+    # linked_list.delete_at_begining()
+    # linked_list.delete_at(44)
+    # linked_list.print()
