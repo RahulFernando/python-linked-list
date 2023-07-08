@@ -18,7 +18,7 @@ if __name__ == "__main__":
     linked_list.print()
 
     # delete operation
-    linked_list.delete_at_end()
-    linked_list.delete_at_begining()
-    linked_list.delete_at(44)
-    linked_list.print()
+    # linked_list.delete_at_end()
+    # linked_list.delete_at_begining()
+    # linked_list.delete_at(44)
+    # linked_list.print()
